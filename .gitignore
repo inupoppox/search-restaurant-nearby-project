@@ -1,0 +1,39 @@
+# Created by https://www.gitignore.io/api/vuejs,zendframework
+# Edit at https://www.gitignore.io/?templates=vuejs,zendframework
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+### ZendFramework ###
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+#Doctrine 2
+data/DoctrineORMModule/Proxy/
+data/DoctrineORMModule/cache/
+
+# Legacy ZF1
+demos/
+extras/documentation
+
+# End of https://www.gitignore.io/api/vuejs,zendframework
+.DS_Store

@@ -39,7 +39,7 @@ You can easily run this project by
 
 ```bash
 # Clone the repository
-git clone xxxxxxx (https://github.com/crsandeep/simple-react-full-stack)
+git clone https://github.com/inupoppox/search-restaurant-nearby-project
 
 # Go inside the directory
 cd search-restaurant-nearby-project

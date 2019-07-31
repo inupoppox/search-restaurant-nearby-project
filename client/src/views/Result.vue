@@ -96,7 +96,8 @@ export default {
         let response = await this.$http.get(findFromTextURL)
         this.place = response.data
       } catch (error) {
-        alert(error.response.data.message) // catches both errors
+        // In case that not found place, we link to 404 page
+        this.$router.push('/404')
       }
     // In case user use autocomplete from search place
     // The place detail can use normally

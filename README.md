@@ -25,7 +25,8 @@ VUE_APP_ROOT_API=http://localhost:8080/
 VUE_APP_GMAP_KEY=YOUR_GOOGLE_KEY
 ```
 
-On the server side, you need to update your key in /server/config/autoload/local.php
+On the server side, you need to create /server/config/autoload/local.php to store environment variable then, put your API key 
+and page_size which is defined for pagination on the website in here.
 ```php
 return [
     'page_size' => 6,
